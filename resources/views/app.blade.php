@@ -10,7 +10,7 @@
     </head>
     <body class="font-sans">
         <div id="app">
-            <div class="container mx-auto">
+            <div class="container px-8 pb-10">
                 <header class="py-6 mb-8">
                     <h1>
                         <img src="/images/logo.svg" alt="Laracasts">
@@ -18,9 +18,9 @@
                 </header>
 
                 <main class="flex">
-                    <aside class="w-1/5">
-                        <section>
-                            <h5 class="uppercase font-bold mb-3">The brand</h5>
+                    <aside class="w-64 pt-8">
+                        <section class="mb-10">
+                            <h5 class="uppercase font-bold mb-5 text-base">The brand</h5>
 
                             <ul class="list-reset">
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/" exact>Logo</router-link></li>
@@ -31,7 +31,7 @@
                         </section>
 
                         <section>
-                            <h5 class="uppercase font-bold my-3">Doodles</h5>
+                            <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
 
                             <ul class="list-reset">
                                 <li class="text-sm pb-4"><router-link class="text-black" to="mascot">Mascot</router-link></li>
@@ -42,7 +42,7 @@
                         </section>
                     </aside>
 
-                    <div class="primary">
+                    <div class="primary flex-1">
                         <router-view></router-view>
                     </div>
                 </main>
