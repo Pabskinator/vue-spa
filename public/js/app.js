@@ -53977,6 +53977,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+ //for dynamic import
+// let NotFound = () => import(/*webpackChunkName: "loaders" */ './components/NotFound');
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mode: 'history',

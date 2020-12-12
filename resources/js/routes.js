@@ -8,6 +8,10 @@ import LoadersAndAnimation from './components/LoadersAndAnimation';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
 
+//for dynamic import
+
+// let NotFound = () => import(/*webpackChunkName: "loaders" */ './components/NotFound');
+
 export default {
     mode: 'history',
 
