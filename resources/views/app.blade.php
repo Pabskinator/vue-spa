@@ -30,14 +30,22 @@
                             </ul>
                         </section>
 
-                        <section>
+                        <section class="mb-10">
                             <h5 class="uppercase font-bold mb-5 text-base">Doodles</h5>
 
                             <ul class="list-reset">
-                                <li class="text-sm pb-4"><router-link class="text-black" to="mascot">Mascot</router-link></li>
+                                <li class="text-sm pb-4"><router-link class="text-black" to="/mascot">Mascot</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/illustrations">Illustrations</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/loaders-and-animations">Loaders & Animations</router-link></li>
                                 <li class="text-sm pb-4"><router-link class="text-black" to="/wallpapers">Wallpapers</router-link></li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h5 class="uppercase font-bold mb-5 text-base">Stats</h5>
+
+                            <ul class="list-reset">
+                                <li class="text-sm pb-4"><router-link class="text-black" to="/site-stats">Site Stats</router-link></li>
                             </ul>
                         </section>
                     </aside>

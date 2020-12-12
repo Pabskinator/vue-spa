@@ -7,6 +7,7 @@ import Illustrations from './components/Illustrations';
 import LoadersAndAnimation from './components/LoadersAndAnimation';
 import Wallpapers from './components/Wallpapers';
 import NotFound from './components/NotFound';
+import SiteStats from './components/SiteStats';
 
 //for dynamic import
 
@@ -62,6 +63,11 @@ export default {
         {
             path: '/wallpapers',
             component: Wallpapers
+        },
+
+        {
+            path: '/site-stats',
+            component: SiteStats
         },
     ]
 }
